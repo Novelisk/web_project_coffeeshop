@@ -42,19 +42,21 @@
           </ul>
         </nav>
         <div class="header__content">
-          <h1 class="header__title">
-            <span class="header__span-accent">Café de especialidad</span>
-            en Triple Peaks
-          </h1>
-          <p class="header__description">
-            ¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos café
-            para darte energía y motivar tu creatividad.
-          </p>
-          <img
-            src="./images/inside_coffee_shop.png"
-            alt="Coffeeshop image on header"
-            class="header__image"
-          />
+          <div>
+            <h1 class="header__title">
+              <span class="header__span-accent">Café de especialidad</span>
+              en Triple Peaks
+            </h1>
+            <p class="header__description">
+              ¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos
+              café para darte energía y motivar tu creatividad.
+            </p>
+            <img
+              src="./images/inside_coffee_shop.png"
+              alt="Coffeeshop image on header"
+              class="header__image"
+            />
+          </div>
         </div>
         <div class="header__footer">
           <p class="header__paragraph">Horario:</p>
@@ -69,7 +71,7 @@
       </header>
 
       <main class="content">
-        <section id="recipes" class="recipes">
+        <section class="recipes" id="recipes">
           <h2 class="recipes__title">Recetas</h2>
           <p class="recipes__subtitle">
             Echa un vistazo a las recetas que hemos reunido para que elabores
@@ -89,8 +91,8 @@
                   allowfullscreen
                 ></iframe>
                 <div class="recipes__video-caption">
-                  <p class="recipes__video-caption_text">Receta en Aeropress</p>
-                  <p class="recipes__video-caption_text">~5 min</p>
+                  <p class="recipes__video-paragraph">Receta en Aeropress</p>
+                  <p class="recipes__video-paragraph">~5 min</p>
                 </div>
               </div>
               <div>
@@ -105,19 +107,19 @@
                   allowfullscreen
                 ></iframe>
                 <div class="recipes__video-caption">
-                  <p class="recipes__video-caption_text">
+                  <p class="recipes__video-paragraph">
                     Receta en cafetera francesa
                   </p>
-                  <p class="recipes__video-caption-paragraph">~15 min</p>
+                  <p class="recipes__video-paragraph">~15 min</p>
                 </div>
               </div>
             </div>
           </div>
         </section>
-        <section class="reservation"></section>
+        <section class="reservation" id="reservation"></section>
       </main>
 
-      <footer class="footer"></footer>
+      <footer class="footer" id="footer"></footer>
     </div>
   </body>
 </html>
