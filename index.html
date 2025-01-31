@@ -41,23 +41,19 @@
             </li>
           </ul>
         </nav>
-        <div class="header__content">
-          <div>
-            <h1 class="header__title">
-              <span class="header__span-accent">Café de especialidad</span>
-              en Triple Peaks
-            </h1>
-            <p class="header__description">
-              ¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos
-              café para darte energía y motivar tu creatividad.
-            </p>
-          </div>
-          <img
-            src="./images/inside_coffee_shop.png"
-            alt="Coffeeshop image on header"
-            class="header__image"
-          />
-        </div>
+        <h1 class="header__title">
+          <span class="header__span-accent">Café de especialidad</span>
+          en Triple Peaks
+        </h1>
+        <p class="header__description">
+          ¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos café
+          para darte energía y motivar tu creatividad.
+        </p>
+        <img
+          src="./images/inside_coffee_shop.png"
+          alt="Coffeeshop image on header"
+          class="header__image"
+        />
         <div class="header__footer">
           <p class="header__paragraph">Horario:</p>
           <p class="header__paragraph">Lunes a Viernes (de 10:00h a 19:00h)</p>
@@ -116,7 +112,45 @@
             </div>
           </div>
         </section>
-        <section class="reservation" id="reservation"></section>
+
+        <section class="reservation" id="reservation">
+          <h2 class="reservation__title">Reservar una mesa</h2>
+          <form class="reservation__form">
+            <fieldset class="form__fieldset">
+              <label class="form__label">
+                Nombre *
+                <input type="text" class="form__input" placeholder="Nombre" />
+              </label>
+              <label class="form__label">
+                Número de comensales *
+                <input
+                  type="number"
+                  class="form__input"
+                  min="1"
+                  max="8"
+                  placeholder="1-8"
+                />
+              </label>
+              <label class="form__label">
+                Fecha y Hora *
+                <input type="datetime-local" class="form__input" />
+              </label>
+              <label class="form__label">
+                Tu correo electrónico *
+                <input
+                  type="email"
+                  class="form__input"
+                  placeholder="email@email.com"
+                />
+              </label>
+            </fieldset>
+            <button class="form__button">Reservar una mesa</button>
+            <label class="form__label form__label_direction">
+              <input type="checkbox" class="form__checkbox" />
+              <span class="form__label">Acepto los términos de uso</span>
+            </label>
+          </form>
+        </section>
       </main>
 
       <footer class="footer" id="footer"></footer>
