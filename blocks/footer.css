@@ -1,0 +1,14 @@
+.footer {
+  background-color: #0a2850;
+}
+
+.footer__circle {
+  background-color: #2f80ed;
+  width: 340px;
+  height: 340px;
+  border-radius: 50%;
+  position: relative;
+  top: -128px;
+  left: -44px;
+  z-index: 0;
+}

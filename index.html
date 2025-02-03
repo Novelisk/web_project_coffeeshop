@@ -11,7 +11,6 @@
       content="tripleten, cafeteria, sprint4, sprint 4, curso"
     />
     <link rel="shortcut icon" href="favicon.ico" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -114,8 +113,6 @@
         </section>
 
         <section class="reservation" id="reservation">
-          <!-- <h2 class="reservation__title">Reservar una mesa</h2> -->
-          <!-- <div class="reservation__main-container"> -->
           <form class="form reservation__form">
             <div class="reservation__container">
               <h2 class="reservation__title">Reservar una mesa</h2>
@@ -163,7 +160,34 @@
         </section>
       </main>
 
-      <footer class="footer" id="footer"></footer>
+      <footer class="footer" id="footer">
+        <div class="footer__circle"></div>
+        <div class="footer__content">
+          <div class="footer__logo"></div>
+          <div class="footer__social">
+            <div class="footer__social--heading">Redes sociales</div>
+            <ul class="footer__list">
+              <li class="footer__list-tiem">
+                <img
+                  src="/images/facebook_white.svg"
+                  alt="Facebook icon"
+                  class="footer__social-icon"
+                />
+                <a href="#" class="footer__social-link">Facebook</a>
+              </li>
+              <li class="footer__list-item">
+                <img
+                  src="/images/instagram_white.svg"
+                  alt="Instagram icon"
+                  class="footer__social-icon"
+                />
+                <a href="#" class="footer__social-link">Instagram</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__copyright">@ 2025 Marco Ramírez</div>
+      </footer>
     </div>
   </body>
 </html>
